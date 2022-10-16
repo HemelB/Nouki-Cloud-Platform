@@ -34,6 +34,12 @@ img{
     width: 100%;
 }
 
+code, pre{
+    background:rgb(74, 103, 72) ;
+    color: #fff;
+    padding: 10px;
+}
+
 /* navbar styling */
 
 .navbar{
@@ -205,6 +211,33 @@ font-size: 16px;
     grid-column: 1/span 2;
 }
 
+/*  DOCS */
+
+.docs-main h3{
+    margin: 20px 0;
+
+}
+
+.docs-main .grid{
+  grid-template-columns: 1fr 2fr; 
+  align-items: flex-start;
+}
+
+.docs-main nav li{
+    font-size: 17px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.text-primary{
+    color: #047aed;
+    font-weight: bold;    
+}
+
+.docs-main a:hover{
+font-weight: bold;
+}
 
 /* Footer */
 footer a{
